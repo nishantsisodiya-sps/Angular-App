@@ -1,0 +1,12 @@
+<div class="background">
+    <div class="card">
+        <u>
+            <h1>Employee Details</h1>
+        </u>
+        <div class="card-body" *ngFor="let user of employee">
+            Employee Name: <strong class="text-success">{{user.name}}</strong> &nbsp;
+            Employee id:<strong class="text-success">{{user.id}}</strong> &nbsp;
+            Employee Email:<strong class="text-success">{{user.email}}</strong>
+        </div>
+    </div>
+</div>

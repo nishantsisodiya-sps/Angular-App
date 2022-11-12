@@ -1,0 +1,40 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+.div {
+    background-color: rgb(189, 214, 218);
+    width: 85%;
+    height: 85%;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.form-control {
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+
+.form-control :hover {
+    background-color: pink;
+}

@@ -1,0 +1,21 @@
+.mb-3 {
+    width: 50%;
+}
+
+.background {
+    background-color: rgb(236, 226, 226);
+    padding-top: 6%;
+}
+
+.childComp {
+    background-color: green;
+    color: white;
+}
+
+#myInput {
+    border-radius: 5px;
+}
+
+#myInput:hover {
+    border: 3.5px solid rgb(117, 117, 208);
+}

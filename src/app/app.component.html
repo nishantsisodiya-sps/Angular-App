@@ -1,0 +1,27 @@
+<header>
+  <nav>
+    <ul class="nav nav-tabs">
+      <li class="nav-item"><a class="nav-link" routerLink="/home" [routerLinkActiveOptions]="{exact : true}"
+          routerLinkActive="active">Home</a>
+      </li>
+
+      <li class=" nav-item"><a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" routerLink="/contactus" routerLinkActive="active">Contact</a>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" routerLink="/products" routerLinkActive="active">Product</a>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" routerLink="/search" routerLinkActive="active">search</a>
+      </li>
+
+      <button type="button" id="btn2" class="btn btn-success" routerLink="/dashboard"
+        routerLinkActive="active">Dashboard</button>
+
+      <button type="button" id="btn" class="btn btn-dark" routerLink="/login">Back to login</button>
+    </ul>
+  </nav>
+</header>
+<router-outlet></router-outlet>

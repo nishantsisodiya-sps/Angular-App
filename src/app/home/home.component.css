@@ -1,0 +1,17 @@
+.card {
+    display: inline-block;
+    margin: 0, 8px, 8px;
+    width: 45%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+h2{
+    text-align: center;
+}
+.alert-light{
+    text-align: left;
+    display: flex;
+}
+#btncheckout{
+    margin-left: auto;
+}

@@ -1,0 +1,7 @@
+<div class="background">
+    <input id="myInput" (keyup)="submitval(val.value)" type=" text" placeholder="Input here...." #val>
+
+    <div class="childComp">
+        <app-child [myValue]="value"></app-child>
+    </div>
+</div>
