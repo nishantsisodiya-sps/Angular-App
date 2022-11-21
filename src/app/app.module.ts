@@ -23,6 +23,7 @@ import { ChildComponent } from './parent/child/child.component';
 
 
 
+
 const appRouts:Routes = [
     {path:'', redirectTo:'login', pathMatch: 'full' },
     {path:'home' , component:HomeComponent},
@@ -61,12 +62,13 @@ const appRouts:Routes = [
     DashboardComponent,
     ParentComponent,
     ChildComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRouts),
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [DashServiceService],
   bootstrap: [AppComponent]

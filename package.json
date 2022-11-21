@@ -15,10 +15,12 @@
     "@angular/compiler": "^14.2.0",
     "@angular/core": "^14.2.0",
     "@angular/forms": "^14.2.0",
+    "@angular/material": "^7.0.0",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
     "@types/body-parser": "^1.19.2",
+    "angular-font-awesome": "^3.1.2",
     "bootstrap": "^5.2.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
@@ -26,6 +28,8 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.4",
+    "@angular-devkit/core": "14.2.6",
+    "@angular-devkit/schematics": "14.2.6",
     "@angular/cli": "~14.2.4",
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",
@@ -35,8 +39,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~4.7.2",
-    "@angular-devkit/schematics": "14.2.6",
-    "@angular-devkit/core": "14.2.6"
+    "typescript": "~4.7.2"
   }
 }
